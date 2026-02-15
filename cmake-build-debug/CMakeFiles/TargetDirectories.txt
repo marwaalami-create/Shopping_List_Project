@@ -1,0 +1,7 @@
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/ShoppingList_App.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/TestItem.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/TestShoppingList.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/TestListCounter.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/TestSubject.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug/CMakeFiles/rebuild_cache.dir

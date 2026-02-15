@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ShoppingList_UltimaProva",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ShoppingList_App::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ShoppingList_App-Debug-c67594f1ea593fa2c311.json",
+					"name" : "ShoppingList_App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestItem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestItem-Debug-ffcd368e87e9f91cf1e5.json",
+					"name" : "TestItem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestListCounter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestListCounter-Debug-6f092ecd8d5b2ef9d26f.json",
+					"name" : "TestListCounter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestShoppingList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestShoppingList-Debug-cf294da44cfe4623d071.json",
+					"name" : "TestShoppingList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestSubject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestSubject-Debug-06c2d1986c26ae471d50.json",
+					"name" : "TestSubject",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alami/CLionProjects/ShoppingList_UltimaProva/cmake-build-debug",
+		"source" : "C:/Users/alami/CLionProjects/ShoppingList_UltimaProva"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
