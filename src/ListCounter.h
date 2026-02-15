@@ -1,18 +1,18 @@
-#ifndef LISTCOUNTER_H // Protezione
+#ifndef LISTCOUNTER_H
 #define LISTCOUNTER_H
-#include <iostream> // Per stampare la notifica
-#include "Observer.h" // Perché è un Observer
-#include "ShoppingList.h" // Perché deve leggere i dati della lista
-class ListCounter : public Observer { // Eredita da Observer
+#include <iostream>
+#include "Observer.h"
+#include "ShoppingList.h"
+class ListCounter : public Observer {
 public:
-    ListCounter(ShoppingList* s) : list(s) { // Costruttore
-        list->addObserver(this); // Si registra come osservatore appena nasce
+    ListCounter(ShoppingList* s) : list(s) {
+        list->addObserver(this);
     }
-    virtual void update() override { // Cosa fare quando la lista cambia
+    virtual void update() override {
         std::cout << "\n>>> [NOTIFICA]: La lista e cambiata!" << std::endl;
         std::cout << ">>> Prodotti ancora da comprare: " << list->getUnboughtCount() << std::endl;
     }
 private:
-    ShoppingList* list; // Puntatore alla lista che sta osservando
+    ShoppingList* list;
 };
 #endif

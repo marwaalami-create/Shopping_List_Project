@@ -1,8 +1,8 @@
-#ifndef OBSERVER_H // Protezione contro inclusioni multiple
+#ifndef OBSERVER_H
 #define OBSERVER_H
-class Observer { // La classe "base" per chi vuole osservare la lista
+class Observer {
 public:
-    virtual ~Observer() {} // Distruttore virtuale: fondamentale per la gestione della memoria
-    virtual void update() = 0; // Metodo "astratto": ogni osservatore deciderà cosa fare quando viene avvisato
+    virtual ~Observer() {}
+    virtual void update() = 0;
 };
 #endif

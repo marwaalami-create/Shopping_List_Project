@@ -3,7 +3,7 @@
 #include <vector>
 #include "Item.h"
 #include "Subject.h" // 1. Includiamo il Subject
-class ShoppingList : public Subject { // 2. Ereditarietà: ShoppingList ora può usare notify()
+class ShoppingList : public Subject {
 public:
     void addItem(const Item& item);
     void removeItem(const std::string& itemName);
